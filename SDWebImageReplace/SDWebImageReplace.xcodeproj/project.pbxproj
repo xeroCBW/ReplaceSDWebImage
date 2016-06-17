@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC8F1D71AB22BA56D757AB0 /* libPods-SDWebImageReplace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D832332EEB3F470CB0C9CADA /* libPods-SDWebImageReplace.a */; };
+		D0DDF4D61D13D57A00C02703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF4D51D13D57A00C02703 /* main.m */; };
+		D0DDF4D91D13D57A00C02703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF4D81D13D57A00C02703 /* AppDelegate.m */; };
+		D0DDF4DC1D13D57A00C02703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF4DB1D13D57A00C02703 /* ViewController.m */; };
+		D0DDF4DF1D13D57A00C02703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DDF4DD1D13D57A00C02703 /* Main.storyboard */; };
+		D0DDF4E11D13D57A00C02703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DDF4E01D13D57A00C02703 /* Assets.xcassets */; };
+		D0DDF4E41D13D57A00C02703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DDF4E21D13D57A00C02703 /* LaunchScreen.storyboard */; };
+		D0DDF51C1D13DDFB00C02703 /* UIImageView+CBWWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF51B1D13DDFB00C02703 /* UIImageView+CBWWebCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58E2AE6397715101E8EB3DCD /* Pods-SDWebImageReplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageReplace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDWebImageReplace/Pods-SDWebImageReplace.debug.xcconfig"; sourceTree = "<group>"; };
+		D0DDF4D11D13D57A00C02703 /* SDWebImageReplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageReplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DDF4D51D13D57A00C02703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0DDF4D71D13D57A00C02703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0DDF4D81D13D57A00C02703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0DDF4DA1D13D57A00C02703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0DDF4DB1D13D57A00C02703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0DDF4DE1D13D57A00C02703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0DDF4E01D13D57A00C02703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DDF4E31D13D57A00C02703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0DDF4E51D13D57A00C02703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DDF51A1D13DDFB00C02703 /* UIImageView+CBWWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CBWWebCache.h"; sourceTree = "<group>"; };
+		D0DDF51B1D13DDFB00C02703 /* UIImageView+CBWWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CBWWebCache.m"; sourceTree = "<group>"; };
+		D832332EEB3F470CB0C9CADA /* libPods-SDWebImageReplace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageReplace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09BC662E8DA4F2A202158A4 /* Pods-SDWebImageReplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageReplace.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDWebImageReplace/Pods-SDWebImageReplace.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DDF4CE1D13D57A00C02703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC8F1D71AB22BA56D757AB0 /* libPods-SDWebImageReplace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4D8C49861918E507F9577A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E2AE6397715101E8EB3DCD /* Pods-SDWebImageReplace.debug.xcconfig */,
+				E09BC662E8DA4F2A202158A4 /* Pods-SDWebImageReplace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B417A696CB1A5F3F545EE0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D832332EEB3F470CB0C9CADA /* libPods-SDWebImageReplace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DDF4C81D13D57A00C02703 = {
+			isa = PBXGroup;
+			children = (
+				D0DDF4D31D13D57A00C02703 /* SDWebImageReplace */,
+				D0DDF4D21D13D57A00C02703 /* Products */,
+				7E4D8C49861918E507F9577A /* Pods */,
+				B417A696CB1A5F3F545EE0DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DDF4D21D13D57A00C02703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDF4D11D13D57A00C02703 /* SDWebImageReplace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DDF4D31D13D57A00C02703 /* SDWebImageReplace */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDF4D71D13D57A00C02703 /* AppDelegate.h */,
+				D0DDF4D81D13D57A00C02703 /* AppDelegate.m */,
+				D0DDF4DA1D13D57A00C02703 /* ViewController.h */,
+				D0DDF4DB1D13D57A00C02703 /* ViewController.m */,
+				D0DDF4DD1D13D57A00C02703 /* Main.storyboard */,
+				D0DDF51A1D13DDFB00C02703 /* UIImageView+CBWWebCache.h */,
+				D0DDF51B1D13DDFB00C02703 /* UIImageView+CBWWebCache.m */,
+				D0DDF4E01D13D57A00C02703 /* Assets.xcassets */,
+				D0DDF4E21D13D57A00C02703 /* LaunchScreen.storyboard */,
+				D0DDF4E51D13D57A00C02703 /* Info.plist */,
+				D0DDF4D41D13D57A00C02703 /* Supporting Files */,
+			);
+			path = SDWebImageReplace;
+			sourceTree = "<group>";
+		};
+		D0DDF4D41D13D57A00C02703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDF4D51D13D57A00C02703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DDF4D01D13D57A00C02703 /* SDWebImageReplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DDF4E81D13D57A00C02703 /* Build configuration list for PBXNativeTarget "SDWebImageReplace" */;
+			buildPhases = (
+				C60BBFBF4E889B2F0FEDA505 /* [CP] Check Pods Manifest.lock */,
+				D0DDF4CD1D13D57A00C02703 /* Sources */,
+				D0DDF4CE1D13D57A00C02703 /* Frameworks */,
+				D0DDF4CF1D13D57A00C02703 /* Resources */,
+				F4F40B7367DF8F90B7792DCB /* [CP] Embed Pods Frameworks */,
+				EF9D1B51413337D7A08CD961 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImageReplace;
+			productName = SDWebImageReplace;
+			productReference = D0DDF4D11D13D57A00C02703 /* SDWebImageReplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DDF4C91D13D57A00C02703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈博文";
+				TargetAttributes = {
+					D0DDF4D01D13D57A00C02703 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D0DDF4CC1D13D57A00C02703 /* Build configuration list for PBXProject "SDWebImageReplace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DDF4C81D13D57A00C02703;
+			productRefGroup = D0DDF4D21D13D57A00C02703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DDF4D01D13D57A00C02703 /* SDWebImageReplace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DDF4CF1D13D57A00C02703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DDF4E41D13D57A00C02703 /* LaunchScreen.storyboard in Resources */,
+				D0DDF4E11D13D57A00C02703 /* Assets.xcassets in Resources */,
+				D0DDF4DF1D13D57A00C02703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C60BBFBF4E889B2F0FEDA505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9D1B51413337D7A08CD961 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDWebImageReplace/Pods-SDWebImageReplace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F40B7367DF8F90B7792DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDWebImageReplace/Pods-SDWebImageReplace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DDF4CD1D13D57A00C02703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DDF4DC1D13D57A00C02703 /* ViewController.m in Sources */,
+				D0DDF51C1D13DDFB00C02703 /* UIImageView+CBWWebCache.m in Sources */,
+				D0DDF4D91D13D57A00C02703 /* AppDelegate.m in Sources */,
+				D0DDF4D61D13D57A00C02703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0DDF4DD1D13D57A00C02703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DDF4DE1D13D57A00C02703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0DDF4E21D13D57A00C02703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DDF4E31D13D57A00C02703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0DDF4E61D13D57A00C02703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DDF4E71D13D57A00C02703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DDF4E91D13D57A00C02703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E2AE6397715101E8EB3DCD /* Pods-SDWebImageReplace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDWebImageReplace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.SDWebImageReplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0DDF4EA1D13D57A00C02703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09BC662E8DA4F2A202158A4 /* Pods-SDWebImageReplace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDWebImageReplace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.SDWebImageReplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DDF4CC1D13D57A00C02703 /* Build configuration list for PBXProject "SDWebImageReplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DDF4E61D13D57A00C02703 /* Debug */,
+				D0DDF4E71D13D57A00C02703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DDF4E81D13D57A00C02703 /* Build configuration list for PBXNativeTarget "SDWebImageReplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DDF4E91D13D57A00C02703 /* Debug */,
+				D0DDF4EA1D13D57A00C02703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DDF4C91D13D57A00C02703 /* Project object */;
+}
